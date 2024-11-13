@@ -1,0 +1,293 @@
+*,::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+img{
+    display: block;
+}
+body{
+    background-color: #8faebb;
+    height: 100vh;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    line-height: 1.5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.freecodecamp-logo{
+    height:30px;
+    margin: 25px,0;
+}
+h1{
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 325px;
+    margin: 25px 0;
+    background-color: #e1e6eb;
+    border: 1px solid #cbd0d4;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px 0px rgba(245, 237, 237, 0.692);
+  }
+  .output,
+  #search-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #search-form {
+    flex-wrap: wrap;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+    gap: 10px;
+  }
+  
+  label {
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #06090c;
+    font-weight: bolder;
+  }
+
+  ::placeholder{
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+  }
+  
+  #search-input:focus-visible,
+  #search-button:focus-visible {
+    outline: 3px solid #068fff;
+  }
+  
+  #search-input {
+    height: 40px;
+    padding-left: 10px;
+    width: 200px;
+    background-color: rgb(238, 236, 232);
+  }
+  
+  #search-button {
+    padding: 14px 0;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #1b6974;
+    color: #f5f6f7;
+    border: none;
+  }
+  
+  .output {
+    margin: 10px 0;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .top-container,
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 325px;
+  }
+  
+  .top-container {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eaebf111;
+  }
+  
+  .name-and-id {
+    height: 28px;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #06090c;
+  }
+
+
+  
+  .size {
+    height: 22px;
+    font-size: 0.85rem;
+    color: #06090c;
+  }
+  
+  .sprite-container {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #sprite {
+    width: 180px;
+  }
+  
+  #types {
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  
+  .type {
+    width: 66px;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+    text-transform: uppercase;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 1 rem;
+    color: #ffffff;
+    background-color: #565463;
+  }
+  
+  th:nth-child(even),
+  td:nth-child(even) {
+    border-left: 5px solid #4b82afdc;
+  }
+  
+  tr {
+    border-bottom: 5px solid #fcfdffde;
+  }
+  
+  td,
+  th {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Special styling for Pokémon types */
+  
+  .normal {
+    background-color: #b7b7aa;
+    color: #06090c;
+  }
+  
+  .fire {
+    background-color: #ff6f52;
+    color: #06090c;
+  }
+  
+  .water {
+    background-color: #42a1ff;
+    color: #06090c;
+  }
+  
+  .electric {
+    background-color: #fecc33;
+    color: #06090c;
+  }
+  
+  .grass {
+    background-color: #78cc55;
+    color: #06090c;
+  }
+  
+  .ice {
+    background-color: #66ccfe;
+    color: #06090c;
+  }
+  
+  .fighting {
+    background-color: #d3887e;
+    color: #06090c;
+  }
+  
+  .poison {
+    background-color: #c68bb7;
+    color: #06090c;
+  }
+  
+  .ground {
+    background-color: #dfba52;
+    color: #06090c;
+  }
+  
+  .flying {
+    background-color: #8899ff;
+    color: #06090c;
+  }
+  
+  .psychic {
+    background-color: #ff66a3;
+    color: #06090c;
+  }
+  
+  .bug {
+    background-color: #aabb23;
+    color: #06090c;
+  }
+  
+  .rock {
+    background-color: #baaa66;
+    color: #06090c;
+  }
+  
+  .ghost {
+    background-color: #9995d0;
+    color: #06090c;
+  }
+  
+  .dragon {
+    background-color: #9e93f1;
+    color: #06090c;
+  }
+  
+  .dark {
+    background-color: #b59682;
+    color: #06090c;
+  }
+  
+  .steel {
+    background-color: #abaabb;
+    color: #06090c;
+  }
+  
+  .fairy {
+    background-color: #e7b7e7;
+    color: #06090c;
+  }
+  
+  @media screen and (min-width: 550px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    .container {
+      width: 450px;
+    }
+  
+    #search-form,
+    .top-container,
+    .bottom-container {
+      width: 95%;
+    }
+  
+    .type {
+      width: 75px;
+    }
+  }
